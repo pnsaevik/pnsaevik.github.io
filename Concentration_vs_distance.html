@@ -1,0 +1,174 @@
+﻿<html><head><meta charset="UTF-8"><title>Concentration vs distance</title><style>
+                    .slide {
+                        width: 100%;
+                        display: none;
+                    }
+                    .slide img {
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 800px;
+                    }
+                    h1 {
+                        font-size: xx-large;
+                        font-family: sans-serif;
+                    }
+                    select {
+                        font-size: medium;
+                        padding: .4rem;
+                        border-radius: .5rem;
+                        border: 1px solid #aaa;
+                        background-color: #eee;
+                        box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+                    }
+                </style></head><body>
+<h1>Concentration vs distance</h1>
+<span><select id="select_resolution" onchange="new_slide()">
+<option value="0">Resolution: 160 m</option>
+<option value="1">Resolution: 800 m</option>
+</select></span>
+<span><select id="select_diffusion" onchange="new_slide()">
+<option value="0">Diffusion: 0.0 m²/s</option>
+<option value="1">Diffusion: 0.1 m²/s</option>
+<option value="2">Diffusion: 1.0 m²/s</option>
+</select></span>
+<span><select id="select_loc_str" onchange="new_slide()">
+<option value="0">Location: 59.6095 °N, 05.1333 °E</option>
+<option value="1">Location: 59.6364 °N, 05.2471 °E</option>
+<option value="2">Location: 59.7215 °N, 05.5866 °E</option>
+<option value="3">Location: 59.7765 °N, 05.3218 °E</option>
+<option value="4">Location: 59.7783 °N, 05.9024 °E</option>
+<option value="5">Location: 59.9070 °N, 05.1598 °E</option>
+<option value="6">Location: 59.9442 °N, 05.4347 °E</option>
+<option value="7">Location: 59.9533 °N, 05.6696 °E</option>
+<option value="8">Location: 60.0209 °N, 05.0815 °E</option>
+<option value="9">Location: 60.0587 °N, 05.4529 °E</option>
+<option value="10">Location: 60.1216 °N, 05.9088 °E</option>
+<option value="11">Location: 60.1301 °N, 05.1760 °E</option>
+<option value="12">Location: 60.3242 °N, 06.3189 °E</option>
+<option value="13">Location: 60.3324 °N, 04.9421 °E</option>
+<option value="14">Location: 60.3580 °N, 05.6832 °E</option>
+<option value="15">Location: 60.4029 °N, 05.0637 °E</option>
+</select></span>
+<div class="slide" id="img_0_0_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.0_596095_051333.svg"></div>
+<div class="slide" id="img_0_0_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.0_596364_052471.svg"></div>
+<div class="slide" id="img_0_0_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.0_597215_055866.svg"></div>
+<div class="slide" id="img_0_0_3"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.0_597765_053218.svg"></div>
+<div class="slide" id="img_0_0_4"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.0_597783_059024.svg"></div>
+<div class="slide" id="img_0_0_5"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.0_599070_051598.svg"></div>
+<div class="slide" id="img_0_0_6"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.0_599442_054347.svg"></div>
+<div class="slide" id="img_0_0_7"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.0_599533_056696.svg"></div>
+<div class="slide" id="img_0_0_8"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.0_600209_050815.svg"></div>
+<div class="slide" id="img_0_0_9"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.0_600587_054529.svg"></div>
+<div class="slide" id="img_0_0_10"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.0_601216_059088.svg"></div>
+<div class="slide" id="img_0_0_11"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.0_601301_051760.svg"></div>
+<div class="slide" id="img_0_0_12"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.0_603242_063189.svg"></div>
+<div class="slide" id="img_0_0_13"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.0_603324_049421.svg"></div>
+<div class="slide" id="img_0_0_14"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.0_603580_056832.svg"></div>
+<div class="slide" id="img_0_0_15"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.0_604029_050637.svg"></div>
+<div class="slide" id="img_0_1_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.1_596095_051333.svg"></div>
+<div class="slide" id="img_0_1_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.1_596364_052471.svg"></div>
+<div class="slide" id="img_0_1_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.1_597215_055866.svg"></div>
+<div class="slide" id="img_0_1_3"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.1_597765_053218.svg"></div>
+<div class="slide" id="img_0_1_4"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.1_597783_059024.svg"></div>
+<div class="slide" id="img_0_1_5"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.1_599070_051598.svg"></div>
+<div class="slide" id="img_0_1_6"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.1_599442_054347.svg"></div>
+<div class="slide" id="img_0_1_7"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.1_599533_056696.svg"></div>
+<div class="slide" id="img_0_1_8"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.1_600209_050815.svg"></div>
+<div class="slide" id="img_0_1_9"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.1_600587_054529.svg"></div>
+<div class="slide" id="img_0_1_10"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.1_601216_059088.svg"></div>
+<div class="slide" id="img_0_1_11"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.1_601301_051760.svg"></div>
+<div class="slide" id="img_0_1_12"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.1_603242_063189.svg"></div>
+<div class="slide" id="img_0_1_13"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.1_603324_049421.svg"></div>
+<div class="slide" id="img_0_1_14"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.1_603580_056832.svg"></div>
+<div class="slide" id="img_0_1_15"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_0.1_604029_050637.svg"></div>
+<div class="slide" id="img_0_2_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_1.0_596095_051333.svg"></div>
+<div class="slide" id="img_0_2_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_1.0_596364_052471.svg"></div>
+<div class="slide" id="img_0_2_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_1.0_597215_055866.svg"></div>
+<div class="slide" id="img_0_2_3"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_1.0_597765_053218.svg"></div>
+<div class="slide" id="img_0_2_4"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_1.0_597783_059024.svg"></div>
+<div class="slide" id="img_0_2_5"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_1.0_599070_051598.svg"></div>
+<div class="slide" id="img_0_2_6"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_1.0_599442_054347.svg"></div>
+<div class="slide" id="img_0_2_7"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_1.0_599533_056696.svg"></div>
+<div class="slide" id="img_0_2_8"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_1.0_600209_050815.svg"></div>
+<div class="slide" id="img_0_2_9"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_1.0_600587_054529.svg"></div>
+<div class="slide" id="img_0_2_10"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_1.0_601216_059088.svg"></div>
+<div class="slide" id="img_0_2_11"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_1.0_601301_051760.svg"></div>
+<div class="slide" id="img_0_2_12"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_1.0_603242_063189.svg"></div>
+<div class="slide" id="img_0_2_13"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_1.0_603324_049421.svg"></div>
+<div class="slide" id="img_0_2_14"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_1.0_603580_056832.svg"></div>
+<div class="slide" id="img_0_2_15"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/160_1.0_604029_050637.svg"></div>
+<div class="slide" id="img_1_0_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.0_596095_051333.svg"></div>
+<div class="slide" id="img_1_0_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.0_596364_052471.svg"></div>
+<div class="slide" id="img_1_0_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.0_597215_055866.svg"></div>
+<div class="slide" id="img_1_0_3"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.0_597765_053218.svg"></div>
+<div class="slide" id="img_1_0_4"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.0_597783_059024.svg"></div>
+<div class="slide" id="img_1_0_5"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.0_599070_051598.svg"></div>
+<div class="slide" id="img_1_0_6"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.0_599442_054347.svg"></div>
+<div class="slide" id="img_1_0_7"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.0_599533_056696.svg"></div>
+<div class="slide" id="img_1_0_8"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.0_600209_050815.svg"></div>
+<div class="slide" id="img_1_0_9"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.0_600587_054529.svg"></div>
+<div class="slide" id="img_1_0_10"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.0_601216_059088.svg"></div>
+<div class="slide" id="img_1_0_11"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.0_601301_051760.svg"></div>
+<div class="slide" id="img_1_0_12"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.0_603242_063189.svg"></div>
+<div class="slide" id="img_1_0_13"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.0_603324_049421.svg"></div>
+<div class="slide" id="img_1_0_14"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.0_603580_056832.svg"></div>
+<div class="slide" id="img_1_0_15"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.0_604029_050637.svg"></div>
+<div class="slide" id="img_1_1_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.1_596095_051333.svg"></div>
+<div class="slide" id="img_1_1_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.1_596364_052471.svg"></div>
+<div class="slide" id="img_1_1_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.1_597215_055866.svg"></div>
+<div class="slide" id="img_1_1_3"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.1_597765_053218.svg"></div>
+<div class="slide" id="img_1_1_4"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.1_597783_059024.svg"></div>
+<div class="slide" id="img_1_1_5"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.1_599070_051598.svg"></div>
+<div class="slide" id="img_1_1_6"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.1_599442_054347.svg"></div>
+<div class="slide" id="img_1_1_7"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.1_599533_056696.svg"></div>
+<div class="slide" id="img_1_1_8"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.1_600209_050815.svg"></div>
+<div class="slide" id="img_1_1_9"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.1_600587_054529.svg"></div>
+<div class="slide" id="img_1_1_10"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.1_601216_059088.svg"></div>
+<div class="slide" id="img_1_1_11"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.1_601301_051760.svg"></div>
+<div class="slide" id="img_1_1_12"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.1_603242_063189.svg"></div>
+<div class="slide" id="img_1_1_13"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.1_603324_049421.svg"></div>
+<div class="slide" id="img_1_1_14"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.1_603580_056832.svg"></div>
+<div class="slide" id="img_1_1_15"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_0.1_604029_050637.svg"></div>
+<div class="slide" id="img_1_2_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_1.0_596095_051333.svg"></div>
+<div class="slide" id="img_1_2_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_1.0_596364_052471.svg"></div>
+<div class="slide" id="img_1_2_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_1.0_597215_055866.svg"></div>
+<div class="slide" id="img_1_2_3"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_1.0_597765_053218.svg"></div>
+<div class="slide" id="img_1_2_4"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_1.0_597783_059024.svg"></div>
+<div class="slide" id="img_1_2_5"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_1.0_599070_051598.svg"></div>
+<div class="slide" id="img_1_2_6"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_1.0_599442_054347.svg"></div>
+<div class="slide" id="img_1_2_7"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_1.0_599533_056696.svg"></div>
+<div class="slide" id="img_1_2_8"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_1.0_600209_050815.svg"></div>
+<div class="slide" id="img_1_2_9"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_1.0_600587_054529.svg"></div>
+<div class="slide" id="img_1_2_10"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_1.0_601216_059088.svg"></div>
+<div class="slide" id="img_1_2_11"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_1.0_601301_051760.svg"></div>
+<div class="slide" id="img_1_2_12"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_1.0_603242_063189.svg"></div>
+<div class="slide" id="img_1_2_13"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_1.0_603324_049421.svg"></div>
+<div class="slide" id="img_1_2_14"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_1.0_603580_056832.svg"></div>
+<div class="slide" id="img_1_2_15"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Concentration_vs_distance/800_1.0_604029_050637.svg"></div>
+<script>
+        function show_slide(idf) {
+            var slides = document.getElementsByClassName("slide");
+            var visible_slide = document.getElementById(idf);
+    
+            for (i = 0; i < slides.length; i++)
+                slides[i].style.display = "none";
+    
+            visible_slide.style.display = "block";
+        }
+        
+        function new_slide() {
+            var new_id = "img_" + document.getElementById("select_resolution").value + "_" + document.getElementById("select_diffusion").value + "_" + document.getElementById("select_loc_str").value;
+            var img = document.getElementById(new_id).children[0];
+            if (img.getAttribute('data-src'))  {
+                var img_url = img.getAttribute('data-src');
+                img.removeAttribute('data-src');
+                img.onload = function() { show_slide(new_id); }
+                img.setAttribute('src', img_url);
+            }
+            else {
+                show_slide(new_id);
+            }
+        }
+        new_slide();
+        </script>
+        </body></html>

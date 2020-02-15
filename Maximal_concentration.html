@@ -1,0 +1,174 @@
+﻿<html><head><meta charset="UTF-8"><title>Maximal concentration</title><style>
+                    .slide {
+                        width: 100%;
+                        display: none;
+                    }
+                    .slide img {
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 800px;
+                    }
+                    h1 {
+                        font-size: xx-large;
+                        font-family: sans-serif;
+                    }
+                    select {
+                        font-size: medium;
+                        padding: .4rem;
+                        border-radius: .5rem;
+                        border: 1px solid #aaa;
+                        background-color: #eee;
+                        box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+                    }
+                </style></head><body>
+<h1>Maximal concentration</h1>
+<span><select id="select_loc_str" onchange="new_slide()">
+<option value="0">Location: 59.6095 °N, 05.1333 °E</option>
+<option value="1">Location: 59.6364 °N, 05.2471 °E</option>
+<option value="2">Location: 59.7215 °N, 05.5866 °E</option>
+<option value="3">Location: 59.7765 °N, 05.3218 °E</option>
+<option value="4">Location: 59.7783 °N, 05.9024 °E</option>
+<option value="5">Location: 59.9070 °N, 05.1598 °E</option>
+<option value="6">Location: 59.9442 °N, 05.4347 °E</option>
+<option value="7">Location: 59.9533 °N, 05.6696 °E</option>
+<option value="8">Location: 60.0209 °N, 05.0815 °E</option>
+<option value="9">Location: 60.0587 °N, 05.4529 °E</option>
+<option value="10">Location: 60.1216 °N, 05.9088 °E</option>
+<option value="11">Location: 60.1301 °N, 05.1760 °E</option>
+<option value="12">Location: 60.3242 °N, 06.3189 °E</option>
+<option value="13">Location: 60.3324 °N, 04.9421 °E</option>
+<option value="14">Location: 60.3580 °N, 05.6832 °E</option>
+<option value="15">Location: 60.4029 °N, 05.0637 °E</option>
+</select></span>
+<span><select id="select_resolution" onchange="new_slide()">
+<option value="0">Resolution: 160 m</option>
+<option value="1">Resolution: 800 m</option>
+</select></span>
+<span><select id="select_diffusion" onchange="new_slide()">
+<option value="0">Diffusion: 0.0 m²/s</option>
+<option value="1">Diffusion: 0.1 m²/s</option>
+<option value="2">Diffusion: 1.0 m²/s</option>
+</select></span>
+<div class="slide" id="img_0_0_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/596095_051333_160_0.0.png"></div>
+<div class="slide" id="img_0_0_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/596095_051333_160_0.1.png"></div>
+<div class="slide" id="img_0_0_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/596095_051333_160_1.0.png"></div>
+<div class="slide" id="img_0_1_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/596095_051333_800_0.0.png"></div>
+<div class="slide" id="img_0_1_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/596095_051333_800_0.1.png"></div>
+<div class="slide" id="img_0_1_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/596095_051333_800_1.0.png"></div>
+<div class="slide" id="img_1_0_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/596364_052471_160_0.0.png"></div>
+<div class="slide" id="img_1_0_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/596364_052471_160_0.1.png"></div>
+<div class="slide" id="img_1_0_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/596364_052471_160_1.0.png"></div>
+<div class="slide" id="img_1_1_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/596364_052471_800_0.0.png"></div>
+<div class="slide" id="img_1_1_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/596364_052471_800_0.1.png"></div>
+<div class="slide" id="img_1_1_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/596364_052471_800_1.0.png"></div>
+<div class="slide" id="img_2_0_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/597215_055866_160_0.0.png"></div>
+<div class="slide" id="img_2_0_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/597215_055866_160_0.1.png"></div>
+<div class="slide" id="img_2_0_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/597215_055866_160_1.0.png"></div>
+<div class="slide" id="img_2_1_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/597215_055866_800_0.0.png"></div>
+<div class="slide" id="img_2_1_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/597215_055866_800_0.1.png"></div>
+<div class="slide" id="img_2_1_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/597215_055866_800_1.0.png"></div>
+<div class="slide" id="img_3_0_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/597765_053218_160_0.0.png"></div>
+<div class="slide" id="img_3_0_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/597765_053218_160_0.1.png"></div>
+<div class="slide" id="img_3_0_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/597765_053218_160_1.0.png"></div>
+<div class="slide" id="img_3_1_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/597765_053218_800_0.0.png"></div>
+<div class="slide" id="img_3_1_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/597765_053218_800_0.1.png"></div>
+<div class="slide" id="img_3_1_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/597765_053218_800_1.0.png"></div>
+<div class="slide" id="img_4_0_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/597783_059024_160_0.0.png"></div>
+<div class="slide" id="img_4_0_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/597783_059024_160_0.1.png"></div>
+<div class="slide" id="img_4_0_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/597783_059024_160_1.0.png"></div>
+<div class="slide" id="img_4_1_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/597783_059024_800_0.0.png"></div>
+<div class="slide" id="img_4_1_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/597783_059024_800_0.1.png"></div>
+<div class="slide" id="img_4_1_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/597783_059024_800_1.0.png"></div>
+<div class="slide" id="img_5_0_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/599070_051598_160_0.0.png"></div>
+<div class="slide" id="img_5_0_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/599070_051598_160_0.1.png"></div>
+<div class="slide" id="img_5_0_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/599070_051598_160_1.0.png"></div>
+<div class="slide" id="img_5_1_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/599070_051598_800_0.0.png"></div>
+<div class="slide" id="img_5_1_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/599070_051598_800_0.1.png"></div>
+<div class="slide" id="img_5_1_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/599070_051598_800_1.0.png"></div>
+<div class="slide" id="img_6_0_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/599442_054347_160_0.0.png"></div>
+<div class="slide" id="img_6_0_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/599442_054347_160_0.1.png"></div>
+<div class="slide" id="img_6_0_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/599442_054347_160_1.0.png"></div>
+<div class="slide" id="img_6_1_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/599442_054347_800_0.0.png"></div>
+<div class="slide" id="img_6_1_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/599442_054347_800_0.1.png"></div>
+<div class="slide" id="img_6_1_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/599442_054347_800_1.0.png"></div>
+<div class="slide" id="img_7_0_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/599533_056696_160_0.0.png"></div>
+<div class="slide" id="img_7_0_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/599533_056696_160_0.1.png"></div>
+<div class="slide" id="img_7_0_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/599533_056696_160_1.0.png"></div>
+<div class="slide" id="img_7_1_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/599533_056696_800_0.0.png"></div>
+<div class="slide" id="img_7_1_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/599533_056696_800_0.1.png"></div>
+<div class="slide" id="img_7_1_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/599533_056696_800_1.0.png"></div>
+<div class="slide" id="img_8_0_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/600209_050815_160_0.0.png"></div>
+<div class="slide" id="img_8_0_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/600209_050815_160_0.1.png"></div>
+<div class="slide" id="img_8_0_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/600209_050815_160_1.0.png"></div>
+<div class="slide" id="img_8_1_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/600209_050815_800_0.0.png"></div>
+<div class="slide" id="img_8_1_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/600209_050815_800_0.1.png"></div>
+<div class="slide" id="img_8_1_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/600209_050815_800_1.0.png"></div>
+<div class="slide" id="img_9_0_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/600587_054529_160_0.0.png"></div>
+<div class="slide" id="img_9_0_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/600587_054529_160_0.1.png"></div>
+<div class="slide" id="img_9_0_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/600587_054529_160_1.0.png"></div>
+<div class="slide" id="img_9_1_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/600587_054529_800_0.0.png"></div>
+<div class="slide" id="img_9_1_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/600587_054529_800_0.1.png"></div>
+<div class="slide" id="img_9_1_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/600587_054529_800_1.0.png"></div>
+<div class="slide" id="img_10_0_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/601216_059088_160_0.0.png"></div>
+<div class="slide" id="img_10_0_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/601216_059088_160_0.1.png"></div>
+<div class="slide" id="img_10_0_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/601216_059088_160_1.0.png"></div>
+<div class="slide" id="img_10_1_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/601216_059088_800_0.0.png"></div>
+<div class="slide" id="img_10_1_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/601216_059088_800_0.1.png"></div>
+<div class="slide" id="img_10_1_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/601216_059088_800_1.0.png"></div>
+<div class="slide" id="img_11_0_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/601301_051760_160_0.0.png"></div>
+<div class="slide" id="img_11_0_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/601301_051760_160_0.1.png"></div>
+<div class="slide" id="img_11_0_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/601301_051760_160_1.0.png"></div>
+<div class="slide" id="img_11_1_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/601301_051760_800_0.0.png"></div>
+<div class="slide" id="img_11_1_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/601301_051760_800_0.1.png"></div>
+<div class="slide" id="img_11_1_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/601301_051760_800_1.0.png"></div>
+<div class="slide" id="img_12_0_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/603242_063189_160_0.0.png"></div>
+<div class="slide" id="img_12_0_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/603242_063189_160_0.1.png"></div>
+<div class="slide" id="img_12_0_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/603242_063189_160_1.0.png"></div>
+<div class="slide" id="img_12_1_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/603242_063189_800_0.0.png"></div>
+<div class="slide" id="img_12_1_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/603242_063189_800_0.1.png"></div>
+<div class="slide" id="img_12_1_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/603242_063189_800_1.0.png"></div>
+<div class="slide" id="img_13_0_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/603324_049421_160_0.0.png"></div>
+<div class="slide" id="img_13_0_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/603324_049421_160_0.1.png"></div>
+<div class="slide" id="img_13_0_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/603324_049421_160_1.0.png"></div>
+<div class="slide" id="img_13_1_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/603324_049421_800_0.0.png"></div>
+<div class="slide" id="img_13_1_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/603324_049421_800_0.1.png"></div>
+<div class="slide" id="img_13_1_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/603324_049421_800_1.0.png"></div>
+<div class="slide" id="img_14_0_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/603580_056832_160_0.0.png"></div>
+<div class="slide" id="img_14_0_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/603580_056832_160_0.1.png"></div>
+<div class="slide" id="img_14_0_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/603580_056832_160_1.0.png"></div>
+<div class="slide" id="img_14_1_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/603580_056832_800_0.0.png"></div>
+<div class="slide" id="img_14_1_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/603580_056832_800_0.1.png"></div>
+<div class="slide" id="img_14_1_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/603580_056832_800_1.0.png"></div>
+<div class="slide" id="img_15_0_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/604029_050637_160_0.0.png"></div>
+<div class="slide" id="img_15_0_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/604029_050637_160_0.1.png"></div>
+<div class="slide" id="img_15_0_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/604029_050637_160_1.0.png"></div>
+<div class="slide" id="img_15_1_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/604029_050637_800_0.0.png"></div>
+<div class="slide" id="img_15_1_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/604029_050637_800_0.1.png"></div>
+<div class="slide" id="img_15_1_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/maxconc/604029_050637_800_1.0.png"></div>
+<script>
+        function show_slide(idf) {
+            var slides = document.getElementsByClassName("slide");
+            var visible_slide = document.getElementById(idf);
+    
+            for (i = 0; i < slides.length; i++)
+                slides[i].style.display = "none";
+    
+            visible_slide.style.display = "block";
+        }
+        
+        function new_slide() {
+            var new_id = "img_" + document.getElementById("select_loc_str").value + "_" + document.getElementById("select_resolution").value + "_" + document.getElementById("select_diffusion").value;
+            var img = document.getElementById(new_id).children[0];
+            if (img.getAttribute('data-src'))  {
+                var img_url = img.getAttribute('data-src');
+                img.removeAttribute('data-src');
+                img.onload = function() { show_slide(new_id); }
+                img.setAttribute('src', img_url);
+            }
+            else {
+                show_slide(new_id);
+            }
+        }
+        new_slide();
+        </script>
+        </body></html>

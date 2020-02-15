@@ -1,0 +1,111 @@
+﻿<html><head><meta charset="UTF-8"><title>Plume extent vs time (aggregated locations)</title><style>
+                    .slide {
+                        width: 100%;
+                        display: none;
+                    }
+                    .slide img {
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 800px;
+                    }
+                    h1 {
+                        font-size: xx-large;
+                        font-family: sans-serif;
+                    }
+                    select {
+                        font-size: medium;
+                        padding: .4rem;
+                        border-radius: .5rem;
+                        border: 1px solid #aaa;
+                        background-color: #eee;
+                        box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+                    }
+                </style></head><body>
+<h1>Plume extent vs time (aggregated locations)</h1>
+<span><select id="select_resolution" onchange="new_slide()">
+<option value="0">Resolution: 160 m</option>
+<option value="1">Resolution: 800 m</option>
+</select></span>
+<span><select id="select_diffusion" onchange="new_slide()">
+<option value="0">Diffusion: 0.0 m²/s</option>
+<option value="1">Diffusion: 0.1 m²/s</option>
+<option value="2">Diffusion: 1.0 m²/s</option>
+</select></span>
+<span><select id="select_conclim" onchange="new_slide()">
+<option value="0">Plume boundary: 0.1000</option>
+<option value="1">Plume boundary: 0.0300</option>
+<option value="2">Plume boundary: 0.0100</option>
+<option value="3">Plume boundary: 0.0030</option>
+<option value="4">Plume boundary: 0.0010</option>
+<option value="5">Plume boundary: 0.0003</option>
+<option value="6">Plume boundary: 0.0001</option>
+</select></span>
+<div class="slide" id="img_0_0_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/160_0.0_0.1.svg"></div>
+<div class="slide" id="img_0_0_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/160_0.0_0.03.svg"></div>
+<div class="slide" id="img_0_0_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/160_0.0_0.01.svg"></div>
+<div class="slide" id="img_0_0_3"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/160_0.0_0.003.svg"></div>
+<div class="slide" id="img_0_0_4"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/160_0.0_0.001.svg"></div>
+<div class="slide" id="img_0_0_5"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/160_0.0_0.0003.svg"></div>
+<div class="slide" id="img_0_0_6"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/160_0.0_0.0001.svg"></div>
+<div class="slide" id="img_0_1_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/160_0.1_0.1.svg"></div>
+<div class="slide" id="img_0_1_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/160_0.1_0.03.svg"></div>
+<div class="slide" id="img_0_1_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/160_0.1_0.01.svg"></div>
+<div class="slide" id="img_0_1_3"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/160_0.1_0.003.svg"></div>
+<div class="slide" id="img_0_1_4"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/160_0.1_0.001.svg"></div>
+<div class="slide" id="img_0_1_5"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/160_0.1_0.0003.svg"></div>
+<div class="slide" id="img_0_1_6"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/160_0.1_0.0001.svg"></div>
+<div class="slide" id="img_0_2_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/160_1.0_0.1.svg"></div>
+<div class="slide" id="img_0_2_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/160_1.0_0.03.svg"></div>
+<div class="slide" id="img_0_2_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/160_1.0_0.01.svg"></div>
+<div class="slide" id="img_0_2_3"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/160_1.0_0.003.svg"></div>
+<div class="slide" id="img_0_2_4"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/160_1.0_0.001.svg"></div>
+<div class="slide" id="img_0_2_5"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/160_1.0_0.0003.svg"></div>
+<div class="slide" id="img_0_2_6"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/160_1.0_0.0001.svg"></div>
+<div class="slide" id="img_1_0_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/800_0.0_0.1.svg"></div>
+<div class="slide" id="img_1_0_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/800_0.0_0.03.svg"></div>
+<div class="slide" id="img_1_0_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/800_0.0_0.01.svg"></div>
+<div class="slide" id="img_1_0_3"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/800_0.0_0.003.svg"></div>
+<div class="slide" id="img_1_0_4"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/800_0.0_0.001.svg"></div>
+<div class="slide" id="img_1_0_5"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/800_0.0_0.0003.svg"></div>
+<div class="slide" id="img_1_0_6"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/800_0.0_0.0001.svg"></div>
+<div class="slide" id="img_1_1_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/800_0.1_0.1.svg"></div>
+<div class="slide" id="img_1_1_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/800_0.1_0.03.svg"></div>
+<div class="slide" id="img_1_1_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/800_0.1_0.01.svg"></div>
+<div class="slide" id="img_1_1_3"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/800_0.1_0.003.svg"></div>
+<div class="slide" id="img_1_1_4"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/800_0.1_0.001.svg"></div>
+<div class="slide" id="img_1_1_5"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/800_0.1_0.0003.svg"></div>
+<div class="slide" id="img_1_1_6"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/800_0.1_0.0001.svg"></div>
+<div class="slide" id="img_1_2_0"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/800_1.0_0.1.svg"></div>
+<div class="slide" id="img_1_2_1"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/800_1.0_0.03.svg"></div>
+<div class="slide" id="img_1_2_2"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/800_1.0_0.01.svg"></div>
+<div class="slide" id="img_1_2_3"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/800_1.0_0.003.svg"></div>
+<div class="slide" id="img_1_2_4"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/800_1.0_0.001.svg"></div>
+<div class="slide" id="img_1_2_5"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/800_1.0_0.0003.svg"></div>
+<div class="slide" id="img_1_2_6"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" data-src="img/Plume_extent_vs_time__aggregated_locations_/800_1.0_0.0001.svg"></div>
+<script>
+        function show_slide(idf) {
+            var slides = document.getElementsByClassName("slide");
+            var visible_slide = document.getElementById(idf);
+    
+            for (i = 0; i < slides.length; i++)
+                slides[i].style.display = "none";
+    
+            visible_slide.style.display = "block";
+        }
+        
+        function new_slide() {
+            var new_id = "img_" + document.getElementById("select_resolution").value + "_" + document.getElementById("select_diffusion").value + "_" + document.getElementById("select_conclim").value;
+            var img = document.getElementById(new_id).children[0];
+            if (img.getAttribute('data-src'))  {
+                var img_url = img.getAttribute('data-src');
+                img.removeAttribute('data-src');
+                img.onload = function() { show_slide(new_id); }
+                img.setAttribute('src', img_url);
+            }
+            else {
+                show_slide(new_id);
+            }
+        }
+        new_slide();
+        </script>
+        </body></html>
