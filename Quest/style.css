@@ -1,0 +1,39 @@
+html {
+	font-size: 300%;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: #eeeeee;
+}
+
+.quest-element {
+    margin: 1rem;
+}
+
+button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 1rem 1rem;
+	text-align: center;
+	font-size: 1rem;
+	margin: .3rem;
+}
+
+button:hover {
+	background-color: green;
+}
+
+#score {
+	font-size: 0.3rem;
+}
