@@ -21,17 +21,13 @@ a:hover {
 }
 
 button {
-	background-color: #4CAF50;
+	background-color: green;
 	border: none;
 	color: white;
 	padding: 1rem 1rem;
 	text-align: center;
 	font-size: 1rem;
 	margin: .3rem;
-}
-
-button:hover {
-	background-color: green;
 }
 
 #score {
