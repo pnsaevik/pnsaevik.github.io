@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Dette er en tittel</title>
+</head>
+<body>
+
+<div id="my-ludo-player"></div>
+<script src="https://static.nrk.no/ludo/9.0.27/ludo.js"></script>
+
+<script>
+
+let playlist = [
+    "MSUM02061620",
+    "MSUB19120116"
+];
+
+let options = {
+  mute: false,
+  autoplay: false,
+  analytics: {
+    ga: {
+      trackingId: "UA-p3-sin-GA-ID"
+    }
+  }
+};
+ludo(document.querySelector('#my-ludo-player'), 'MSUB19120116', options);
+</script>
+
+</body>
+</html>
